@@ -4,7 +4,9 @@ $('html').on('keydown', function (e) {
   var $ball = $('<div>');
 
   $ball.addClass('ball');
+  $('body').append($ball);
 
-  $theKey.html(e.keyCode);
-  $('body').append($theKey);
+  $ball.css('left', Math.random() * 800);
+  $ball.css('top', Math.random() * 800);
+
 });
