@@ -6,7 +6,6 @@ $('html').on('keydown', function (e) {
   $ball.addClass('ball');
   $('body').append($ball);
 
-  $ball.css('left', Math.random() * 800);
-  $ball.css('top', Math.random() * 800);
-
+  $ball.css('left', Math.random() * 700);
+  $ball.css('top', Math.random() * 400);
 });
